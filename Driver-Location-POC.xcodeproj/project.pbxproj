@@ -14,6 +14,8 @@
 		FA8887311FF4CD9700DBAF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA88872F1FF4CD9700DBAF73 /* LaunchScreen.storyboard */; };
 		FA88873C1FF4CD9700DBAF73 /* Driver_Location_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88873B1FF4CD9700DBAF73 /* Driver_Location_POCTests.swift */; };
 		FA8887471FF4CD9700DBAF73 /* Driver_Location_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8887461FF4CD9700DBAF73 /* Driver_Location_POCUITests.swift */; };
+		FA8887551FF4D17900DBAF73 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8887541FF4D17900DBAF73 /* LocationManager.swift */; };
+		FADE51DF1FFB5DB4002D8104 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE51DE1FFB5DB4002D8104 /* SocketManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA8887421FF4CD9700DBAF73 /* Driver-Location-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver-Location-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8887461FF4CD9700DBAF73 /* Driver_Location_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_Location_POCUITests.swift; sourceTree = "<group>"; };
 		FA8887481FF4CD9700DBAF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8887541FF4D17900DBAF73 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FADE51DE1FFB5DB4002D8104 /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				FA8887261FF4CD9700DBAF73 /* AppDelegate.swift */,
 				FA8887281FF4CD9700DBAF73 /* ViewController.swift */,
+				FADE51DE1FFB5DB4002D8104 /* SocketManager.swift */,
+				FA8887541FF4D17900DBAF73 /* LocationManager.swift */,
 				FA88872A1FF4CD9700DBAF73 /* Main.storyboard */,
 				FA88872D1FF4CD9700DBAF73 /* Assets.xcassets */,
 				FA88872F1FF4CD9700DBAF73 /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				FA8887291FF4CD9700DBAF73 /* ViewController.swift in Sources */,
 				FA8887271FF4CD9700DBAF73 /* AppDelegate.swift in Sources */,
+				FA8887551FF4D17900DBAF73 /* LocationManager.swift in Sources */,
+				FADE51DF1FFB5DB4002D8104 /* SocketManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +438,7 @@
 				DEVELOPMENT_TEAM = 364TGRNW4Z;
 				INFOPLIST_FILE = "Driver-Location-POC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sixt-R-D.Driver-Location-POC";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Driver-Location-POC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +453,7 @@
 				DEVELOPMENT_TEAM = 364TGRNW4Z;
 				INFOPLIST_FILE = "Driver-Location-POC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sixt-R-D.Driver-Location-POC";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Driver-Location-POC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +469,7 @@
 				DEVELOPMENT_TEAM = 364TGRNW4Z;
 				INFOPLIST_FILE = "Driver-Location-POCTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sixt-R-D.Driver-Location-POCTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Driver-Location-POCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,7 +486,7 @@
 				DEVELOPMENT_TEAM = 364TGRNW4Z;
 				INFOPLIST_FILE = "Driver-Location-POCTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sixt-R-D.Driver-Location-POCTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Driver-Location-POCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
