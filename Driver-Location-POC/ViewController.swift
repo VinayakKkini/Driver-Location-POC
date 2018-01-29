@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             if let annotationView = self?.mapView.view(for: annotation), annotationView.reuseIdentifier == self?.annotationIdentifier {
                 annotationView.transform =  CGAffineTransform.identity.rotated(by: CGFloat(angle))
             }
-            self?.socket.sendMessage(message: "\(newLocation.description)")
+            self?.socket.send(message: "\(newLocation.description)")
         }
 
     }
